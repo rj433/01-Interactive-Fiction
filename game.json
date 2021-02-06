@@ -1,0 +1,314 @@
+{
+    "passages": [
+      {
+        "text": "You wake up rubbing your eyes. It seems to be a normal day. You hear the birds chirping outside, and the sun beads onto your body from the nearby window. \n[[Go brush your teeth->Bathroom]] \n[[Go finish your homework->Desk]] \n[[Go eat breakfast to be healthy->Stairs]] \n[[Go open the window->Window]]",
+        "links": [
+          {
+            "name": "Go brush your teeth",
+            "link": "Bathroom",
+            "pid": "2"
+          },
+          {
+            "name": "Go finish your homework",
+            "link": "Desk",
+            "pid": "3"
+          },
+          {
+            "name": "Go eat breakfast to be healthy",
+            "link": "Stairs",
+            "pid": "4"
+          },
+          {
+            "name": "Go open the window",
+            "link": "Window",
+            "pid": "5"
+          }
+        ],
+        "name": "Your bedroom",
+        "pid": "1",
+        "position": {
+          "x": "405",
+          "y": "171"
+        }
+      },
+      {
+        "text": "You now stand in the bathroom where the linoleum feels cold under your feet. The bathroom seems to have a weird feeling of nostalgia. It feels as if the bathroom is the same everyday. Huh. Weird. \n[[Brush teeth->Mirror]] \n[[Turn back->Your bedroom]] ",
+        "links": [
+          {
+            "name": "Brush teeth",
+            "link": "Mirror",
+            "pid": "6"
+          },
+          {
+            "name": "Turn back",
+            "link": "Your bedroom",
+            "pid": "1"
+          }
+        ],
+        "name": "Bathroom",
+        "pid": "2",
+        "position": {
+          "x": "180",
+          "y": "321"
+        }
+      },
+      {
+        "text": "You sit down to do your homework left over from last night. Suddenly, the math equations start mixing in your head, and the words slowly begin to fade as you drift off to sleep. You fall asleep with your head on your desk. \n[[Wake up->Your bedroom again?]]",
+        "links": [
+          {
+            "name": "Wake up",
+            "link": "Your bedroom again?",
+            "pid": "7"
+          }
+        ],
+        "name": "Desk",
+        "pid": "3",
+        "position": {
+          "x": "337",
+          "y": "321"
+        }
+      },
+      {
+        "text": "You stand at the top of the stairs, hearing your mom call your name. However, it seems to sound garbled, like she is speaking through a tube. \n[[Go downstairs->Kitchen]] ",
+        "links": [
+          {
+            "name": "Go downstairs",
+            "link": "Kitchen",
+            "pid": "8"
+          }
+        ],
+        "name": "Stairs",
+        "pid": "4",
+        "position": {
+          "x": "480",
+          "y": "321"
+        }
+      },
+      {
+        "text": "You open the window, and look outside to your yard as the sun shines on you through the open window. However, the sun starts to look a little funny, almost as if it's dying. The light from it seems to fade slowly. Before you know it, you black out. \n[[Wake up->YOUr Bedroom]] ",
+        "links": [
+          {
+            "name": "Wake up",
+            "link": "YOUr Bedroom",
+            "pid": "9"
+          }
+        ],
+        "name": "Window",
+        "pid": "5",
+        "position": {
+          "x": "630",
+          "y": "321"
+        }
+      },
+      {
+        "text": "You watch yourself intently as you brush your teeth. Suddenly, downstairs, your mom calls you by name. You better go see what she wants. \n[[Go downstairs->Stairs]] ",
+        "links": [
+          {
+            "name": "Go downstairs",
+            "link": "Stairs",
+            "pid": "4"
+          }
+        ],
+        "name": "Mirror",
+        "pid": "6",
+        "position": {
+          "x": "105",
+          "y": "471"
+        }
+      },
+      {
+        "text": "You wake up rubbing your eyes, again. It seems to be a NOrmal day,no. You hear the birds chirping outside, and the sun beads onto your body from the nearby window, how? \n[[Go find your mom->Kitchen]]",
+        "links": [
+          {
+            "name": "Go find your mom",
+            "link": "Kitchen",
+            "pid": "8"
+          }
+        ],
+        "name": "Your bedroom again?",
+        "pid": "7",
+        "position": {
+          "x": "330",
+          "y": "471"
+        }
+      },
+      {
+        "text": "You walk into the Kitchen, your mom standing with a plate of pancakes. Every morning, she stands and waits for you to come down the stairs while she holds your breakfast. In a way, it's kind of creepy. \n[[Sit down and eat->Table]] \n[[Go outside to the lawn->Lawn]] \n[[Go watch TV-> Living room]]",
+        "links": [
+          {
+            "name": "Sit down and eat",
+            "link": "Table",
+            "pid": "10"
+          },
+          {
+            "name": "Go outside to the lawn",
+            "link": "Lawn",
+            "pid": "11"
+          },
+          {
+            "name": "Go watch TV",
+            "link": " Living room",
+            "pid": "12"
+          }
+        ],
+        "name": "Kitchen",
+        "pid": "8",
+        "position": {
+          "x": "480",
+          "y": "471"
+        }
+      },
+      {
+        "text": "You wake up rubbing your eyes. It seems to be a normal day. You hear the birds chirping outside, and the sun beads onto your body from the nearby window. How can this be happening? I WAS JUST HERE!\n[[Go find your mom->Kitchen]]",
+        "links": [
+          {
+            "name": "Go find your mom",
+            "link": "Kitchen",
+            "pid": "8"
+          }
+        ],
+        "name": "YOUr Bedroom",
+        "pid": "9",
+        "position": {
+          "x": "630",
+          "y": "471"
+        }
+      },
+      {
+        "text": "You shovel the pancakes into your mouth, feeling like you just had a bad dream and the pancakes serve as a tie back to earth. Suddenly your mom hears an intense, insistent knock at the door. \n[[Turn to see who it is->Door]] \n[[Mind your own business->You're done.]] ",
+        "links": [
+          {
+            "name": "Turn to see who it is",
+            "link": "Door",
+            "pid": "13"
+          },
+          {
+            "name": "Mind your own business",
+            "link": "You're done.",
+            "pid": "14"
+          }
+        ],
+        "name": "Table",
+        "pid": "10",
+        "position": {
+          "x": "285",
+          "y": "626"
+        }
+      },
+      {
+        "text": "You walk out onto the lawn while you see a man run past. He makes a stop and turns towards you, instantly recognizing you. You've never seen this man in your life. He walks up to you, with a slight wave, and calls you over. Hesitantly, you walk over. He grabs you forcefully, pulling you into the fence. He forces a needle into your neck, knocking you out, and you wake up in your bed. \n[[Retry->Your bedroom]] ",
+        "links": [
+          {
+            "name": "Retry",
+            "link": "Your bedroom",
+            "pid": "1"
+          }
+        ],
+        "name": "Lawn",
+        "pid": "11",
+        "position": {
+          "x": "555",
+          "y": "621"
+        }
+      },
+      {
+        "text": "You sit at the couch, watching TV. You hear an intense, and insistent knock at the door. Your mother walks over, and opens it talking to the man. The man at the door seems to be in a panic, saying something along the lines of \"He has to be dealt with! He knows!\". You know deep down that your mother won't stop this man. However, the couch is out of this man's sight. You could escape. \n[[Escape out the back door to the lawn->Escape to the lawn]]",
+        "links": [
+          {
+            "name": "Escape out the back door to the lawn",
+            "link": "Escape to the lawn",
+            "pid": "15"
+          }
+        ],
+        "name": " Living room",
+        "pid": "12",
+        "position": {
+          "x": "435",
+          "y": "621"
+        }
+      },
+      {
+        "text": "The man at the door seems to be in a panic, saying something along the lines of \"He has to be dealt with! He knows!\". Your mother nervously looks over to you and you realize that you are in danger. You know deep down that your mother won't stop this man. \n[[Escape out the back door to the lawn->Escape to the lawn]] \n[[Stay put->You're done.]] ",
+        "links": [
+          {
+            "name": "Escape out the back door to the lawn",
+            "link": "Escape to the lawn",
+            "pid": "15"
+          },
+          {
+            "name": "Stay put",
+            "link": "You're done.",
+            "pid": "14"
+          }
+        ],
+        "name": "Door",
+        "pid": "13",
+        "position": {
+          "x": "210",
+          "y": "776"
+        }
+      },
+      {
+        "text": "You sit there and eat your pancakes. The man at the door bursts past your mother,shoves a needle into your neck, injecting you. You fall to the ground, and wake up in your bed. You have to find out what happened. \n[[Retry->Your bedroom]] ",
+        "links": [
+          {
+            "name": "Retry",
+            "link": "Your bedroom",
+            "pid": "1"
+          }
+        ],
+        "name": "You're done.",
+        "pid": "14",
+        "position": {
+          "x": "360",
+          "y": "776"
+        }
+      },
+      {
+        "text": "You run out to the lawn in a panic, and try to find a hiding spot. You settle for hopping the fence, and hiding in a neighbor's yard. The man shoots through the back door trying to find you. He eventually retreats through the door, in defeat. You look closer into your yard, and suddenly, a flash of light glows in the yard. It stands tall vertically, so bright you can't look directly into it. It seems strange but you feel drawn to it. \n[[Go toward the light->Light]] ",
+        "links": [
+          {
+            "name": "Go toward the light",
+            "link": "Light",
+            "pid": "16"
+          }
+        ],
+        "name": "Escape to the lawn",
+        "pid": "15",
+        "position": {
+          "x": "480",
+          "y": "771"
+        }
+      },
+      {
+        "text": "You walk up to the light, and find that it seems to be a door, or some kind of portal to a different place. A rip in time maybe? You stick one arm through and bring it back. You can walk through it. The man screams from the kitchen giving indication he sees you and starts running out the backdoor. YOU HAVE TO GET AWAY. \n[[Go through the portal->Escape.]]",
+        "links": [
+          {
+            "name": "Go through the portal",
+            "link": "Escape.",
+            "pid": "17"
+          }
+        ],
+        "name": "Light",
+        "pid": "16",
+        "position": {
+          "x": "480",
+          "y": "921"
+        }
+      },
+      {
+        "text": "You fall through the portal, into what seems to be a studio. You look back and realize the man made a final leap to try and catch you and took your shoe. Looking around the studio, shows detailed drawings of your family, your house, your town, even you. It is so accurate down to the last detail. There are ideas, drawings, diagrams of everything about your life, everywhere. You find a door that says \"EXIT\" and you head through. Congratulations, you have escaped the simulation. ",
+        "name": "Escape.",
+        "pid": "17",
+        "position": {
+          "x": "480",
+          "y": "1071"
+        }
+      }
+    ],
+    "name": "Project 1 story",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.11",
+    "ifid": "B506F510-9558-460F-8144-BD84AD45D426"
+  }
